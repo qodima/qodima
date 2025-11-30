@@ -28,7 +28,13 @@ export const Contact: React.FC = () => {
         </div>
 
         <div className="border-t border-slate-800 pt-8 text-sm text-slate-500">
-          © {new Date().getFullYear()} Qodimmul Abadi. All rights reserved.
+          <span>
+        © {new Date().getFullYear()} <span className="text-slate-200 font-medium">Qodimmul Abadi</span>. All rights reserved
+      </span>
+      <span className="hidden md:inline text-slate-600">|</span> 
+      <span>
+        Design by <a href="https://www.medilana.id/"><span className="text-slate-200 font-medium">Medilana</span></a>
+      </span>
         </div>
       </div>
     </footer>
