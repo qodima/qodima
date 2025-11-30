@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
           <div className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-slate-700 overflow-hidden shadow-2xl relative bg-slate-800">
              {/* Using a placeholder because I cannot extract the actual image file from the prompt text, but mimicking the suit look */}
             <img 
-              src="https://picsum.photos/400/400?grayscale" 
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlCYBRiM_Gld20ZKPzEALLUhDXKG21kwY_1AtqhKzTU7GQWmXHqU-iqzx-fnqRqELOt-CpOg5APlADUpdSmP-CkDjQonYv0HuyzlQaJk8RmT_IHV6IGRvXvcaq6xJO1kRTfw7f_iYB7Zm4SAkbKH8oF8mHxIQarM8DoHtfMu0JQvM62vhJPZpFMJH9UMY/s400/qodima-400x400.png" 
               alt={PROFILE.name} 
               className="w-full h-full object-cover"
             />
