@@ -7,10 +7,10 @@ export const PROFILE = {
 };
 
 export const CONTACT: ContactInfo = {
-  phone: "+62822-6401-2592",
+  phone: "0822-6401-2592",
   email: "kodima39@gmail.com",
   location: "Pondok Gede, Kota Bekasi",
-  website: "www.qodimmulabadi.com"
+  website: "qodima.netlify.app"
 };
 
 export const EXPERIENCES: Experience[] = [
@@ -72,8 +72,7 @@ export const EXPERTISE: Skill[] = [
 
 export const LANGUAGES: Skill[] = [
   { name: "Indonesia", category: "Language", level: 100 },
-  { name: "English", category: "Language", level: 65 },
-  { name: "Jawa", category: "Language", level: 100 }
+  { name: "English", category: "Language", level: 65 }
 ];
 
 // System prompt for the AI to act as Qodimmul
